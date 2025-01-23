@@ -1,0 +1,42 @@
+name: Update Composer Dependencies
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # This will run every Sunday at midnight
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1' # Specify your PHP version
+          extensions: mbstring, xml
+
+      - name: Install Composer
+        run: curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+      - name: Update dependencies
+        run: composer update
+        
+      - name: Optimize Cache
+        run: php artisan optimize:clear
+        
+      - name: Composer Dump Autoload
+        run: composer dump-autoload
+
+      - name: Commit changes
+        run: |
+          git config --local user.email ${{ secrets.WORKFLOW_EMAIL }}
+          git config --local user.name ${{ secrets.WORKFLOW_USERNAME }}
+          git add composer.json composer.lock
+          git commit -m "Update Composer dependencies" || echo "No changes to commit"
+          git push
