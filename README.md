@@ -86,9 +86,9 @@ Checkout the [official documentation here](./docs/INSTALL.md).
 
 Saasio is proudly supported by our amazing sponsors. A big thank you to:
 
-<a href="https://www.digitalocean.com/?refcode=46bcaedf5140&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=46bcaedf5140&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
-[![Laravel Forge Site Deployment Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2Fc0e0aa89-ffbf-4314-8289-5481430fd2b9%3Flabel%3D1&style=plastic)](https://forge.laravel.com/servers/876795/sites/2587381)
+[![Laravel Forge Site Deployment Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2F060b3802-0b55-4e69-91fd-dbfc58287e40&style=plastic)](https://forge.laravel.com/servers/878209/sites/2591533)
 
 # License
 
