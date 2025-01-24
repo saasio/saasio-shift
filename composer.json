@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "creativeorange/gravatar": "~1.0",
         "graham-campbell/digitalocean": "^8.4",
         "guzzlehttp/guzzle": "^7.2",
