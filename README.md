@@ -1,9 +1,9 @@
 <p align="center"><a href="https://docker2saas.app" target="_blank"><img src="icons/apple-touch-icon.png" width="300"></a></p>
 
 <p align="center">
-<a href="https://github.com/saasio/saasio-api/actions"><img src="https://github.com/saasio/saasio-api/actions/workflows/nodejs.yml/badge.svg" alt="Build Status"></a>
-<a href="https://github.com/saasio/saasio-api"><img src="https://img.shields.io/github/v/release/saasio/saasio-api" alt="Latest Stable Version"></a>
-<a href="https://github.com/saasio/saasio-api"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+<a href="https://github.com/saasio/saasio-shift/actions"><img src="https://github.com/saasio/saasio-shift/actions/workflows/nodejs.yml/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/saasio/saasio-shift"><img src="https://img.shields.io/github/v/release/saasio/saasio-shift" alt="Latest Stable Version"></a>
+<a href="https://github.com/saasio/saasio-shift"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
 </p>
 
 # About
